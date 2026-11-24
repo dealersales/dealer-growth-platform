@@ -1,4 +1,4 @@
-# Preview build: not for indexing. Remove noindex and this file when the page
-# moves to sales-consultants.com.
+# Preview build: not for indexing. Remove noindex and this file when the pages
+# move to sales-consultants.com.
 User-agent: *
 Disallow: /
