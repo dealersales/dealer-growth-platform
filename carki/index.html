@@ -105,7 +105,7 @@ h1 .hl .squig{position:absolute;left:-1%;right:-1%;bottom:-.15em;width:102%;heig
 
 /* ticker */
 .ticker{background:var(--mint);color:var(--ink);padding:16px 0;overflow:hidden}
-.ticker-in{display:flex;flex-wrap:wrap;gap:10px 34px;justify-content:center;align-items:center;font-family:"Outfit",sans-serif;font-size:14px;letter-spacing:.01em;color:rgba(22,6,34,.88)}
+.ticker-in{display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:center;align-items:center;font-family:"Outfit",sans-serif;font-size:13.5px;letter-spacing:.005em;color:rgba(22,6,34,.88)}
 .ticker-in span{display:inline-flex;align-items:center;gap:10px}
 .ticker-in span:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--ink)}
 
@@ -133,6 +133,7 @@ section{padding:76px 0}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;box-shadow:var(--shadow);display:flex;flex-direction:column}
 .card .ico{width:44px;height:44px;border-radius:14px;background:var(--tint);color:var(--purple-deep);display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .card .ico svg{width:24px;height:24px}
+.card .ico .pound{font-family:"Outfit",sans-serif;font-size:26px;font-weight:700;line-height:1;color:var(--purple-deep)}
 .card h3{font-size:22px;margin-bottom:8px}
 .card p{color:var(--grey);font-size:15.5px;margin:0}
 .card .tag{font-family:"Outfit",sans-serif;font-size:11.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--purple-deep);margin-bottom:10px}
@@ -303,8 +304,8 @@ footer a:hover{border-bottom-color:var(--mint)}
     <div class="wrap ticker-in">
       <span>130,000 cars on Carki's search</span>
       <span>Free stock advertising</span>
-      <span>34 dealers on the DSC directory network</span>
-      <span>No VAT on DSC fees</span>
+      <span>Advertise your stock on DSC Local and Regional directory networks</span>
+      <span>You own the site and domain</span>
     </div>
   </div>
 
@@ -319,7 +320,7 @@ footer a:hover{border-bottom-color:var(--mint)}
 
       <div class="grid-3">
         <article class="card big">
-          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M16.5 7.5c0-1.7-2-2.6-4.5-2.6s-4.5.9-4.5 2.9 2 2.6 4.5 3.1 4.5 1.1 4.5 3.1-2 2.9-4.5 2.9-4.5-1-4.5-2.7"/></svg></div>
+          <div class="ico" aria-hidden="true"><span class="pound">&pound;</span></div>
           <div class="tag">Revenue</div>
           <h3>Commission on every deal</h3>
           <p>Carki pays dealer commission on every completed finance agreement. Their line is that you will not be beaten on it, and the schedule is agreed with you at the start rather than buried in the middle.</p>
@@ -362,7 +363,7 @@ footer a:hover{border-bottom-color:var(--mint)}
         </article>
         <article class="card">
           <h3>Search visibility</h3>
-          <p>Listings on the Cars For Sale directory network, a tidy Google Business Profile, reviews under control, and SEO or Google Ads if you want the traffic faster.</p>
+          <p>Listings on the Cars For Sale directory network, a tidy Google Business Profile, reviews under control, AI search visibility so you turn up in AI answers as well as Google, and SEO or Google Ads if you want the traffic faster.</p>
         </article>
         <article class="card">
           <h3>Compliance and QA</h3>
@@ -443,7 +444,7 @@ footer a:hover{border-bottom-color:var(--mint)}
           <div class="who">From Digital Sales Consultants</div>
           <h3>Website, stock and directory</h3>
           <p class="fig">&pound;120<small> a month, 30-car forecourt</small></p>
-          <p class="sub">Setup included. No VAT, so &pound;120 is what you pay.</p>
+          <p class="sub">Setup included, with hosting and SSL in the fee.</p>
           <ul>
             <li>Website on your branding and domain, hosting and SSL included</li>
             <li>Carro stock system and the admin behind every listing</li>
@@ -493,7 +494,7 @@ footer a:hover{border-bottom-color:var(--mint)}
         <details>
           <summary>What does the digital side cost?</summary>
           <div class="a">
-            <p>From &pound;120 a month for a 30-car forecourt, including the stock system, the website and a directory network listing. 80 cars from &pound;170, 250 cars from &pound;369. No VAT, setup included.</p>
+            <p>From &pound;120 a month for a 30-car forecourt, including the stock system, the website and a directory network listing. 80 cars from &pound;170, 250 cars from &pound;369. Setup included.</p>
             <p>A bigger site or a bespoke design is quoted per dealer, in writing, before any work starts.</p>
           </div>
         </details>
@@ -619,8 +620,6 @@ footer a:hover{border-bottom-color:var(--mint)}
       <div>
         <h4>Digital Sales Consultants Ltd</h4>
         <p>Middletons Yard, Worksop S80 2FT.</p>
-        <p>Not VAT registered, so the prices shown are what you pay.</p>
-        <p>Not authorised or regulated by the Financial Conduct Authority and does not arrange credit.</p>
       </div>
     </div>
     <p class="foot-legal">Digital Sales Consultants Ltd and Equaliti Ltd (trading as Carki) are separate companies working together on dealer accounts. Nothing on this page is a quote for credit, an offer of finance or a promise of a rate.</p>
