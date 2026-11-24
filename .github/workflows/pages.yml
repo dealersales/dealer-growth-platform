@@ -7,6 +7,8 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  actions: read        # deploy-pages lists the run's artifacts through the Actions API
+
 concurrency:
   group: pages
   cancel-in-progress: false
