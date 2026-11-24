@@ -24,5 +24,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - id: deployment
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      # GitHub intermittently reports "Found 0 artifact(s)" for an artifact that uploaded
+      # seconds earlier; one clean retry clears it without touching the artifact itself.
+      - name: Retry deploy once
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
