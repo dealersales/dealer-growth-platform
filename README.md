@@ -1,11 +1,12 @@
 # Dealer growth platform (preview)
 
-Two versions of the same offer for used car dealers, published together so they can be compared.
+Three versions of the same offer for used car dealers, published together so they can be compared.
 
 | Page | URL | Leads with |
 |---|---|---|
 | DSC-led | https://dealersales.github.io/dealer-growth-platform/ | Digital Sales Consultants, Carki's finance inside |
 | Carki-led | https://dealersales.github.io/dealer-growth-platform/carki/ | Carki's finance and branding, DSC's website and stock inside |
+| FMF-led | https://dealersales.github.io/dealer-growth-platform/fmf/ | Forward Motor Finance's finance and branding, DSC's website and stock inside |
 
 - Not indexed (`noindex`, `robots.txt` disallow) and not the launch build.
 - Do not point a client domain at this repo. The production version belongs on
@@ -14,4 +15,4 @@ Two versions of the same offer for used car dealers, published together so they 
   HTML files sent to clients do not carry it.
 
 Built from `~/Projects/dsc-dealer-growth-platform` (`python3 build.py`). Do not edit
-`index.html` here by hand: change `src/index.html` or `src/carki.html` and rebuild.
+`index.html` here by hand: change `src/index.html`, `src/carki.html` or `src/fmf.html` and rebuild.
