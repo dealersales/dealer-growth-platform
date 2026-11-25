@@ -4,9 +4,10 @@ Three versions of the same offer for used car dealers, published together so the
 
 | Page | URL | Leads with |
 |---|---|---|
-| DSC-led | https://dealersales.github.io/dealer-growth-platform/ | Digital Sales Consultants, Carki's finance inside |
+| DSC + Carki | https://dealersales.github.io/dealer-growth-platform/ | Digital Sales Consultants, Carki's finance inside |
 | Carki-led | https://dealersales.github.io/dealer-growth-platform/carki/ | Carki's finance and branding, DSC's website and stock inside |
 | FMF-led | https://dealersales.github.io/dealer-growth-platform/fmf/ | Forward Motor Finance's finance and branding, DSC's website and stock inside |
+| DSC + FMF | https://dealersales.github.io/dealer-growth-platform/dsc-fmf/ | Digital Sales Consultants, Forward Motor Finance's finance inside |
 
 - Not indexed (`noindex`, `robots.txt` disallow) and not the launch build.
 - Do not point a client domain at this repo. The production version belongs on
